@@ -268,7 +268,7 @@ def marking_attendence():
             msg['To'] = email
             # Send the message via our own SMTP server.
             server = smtplib.SMTP_SSL('smtp.gmail.com', 465)
-            server.login("sanchitjain223223@gmail.com", "sanchitjain12345")
+            server.login("sanchitjain223223@gmail.com", "ziykuiglcgmzumzk")
             server.send_message(msg)
             server.quit()
         send_mail(i,j,d_str,emails[i])    
